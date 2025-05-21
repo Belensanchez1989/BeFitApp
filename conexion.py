@@ -2,13 +2,13 @@ from mysql.connector import pooling
 from mysql.connector import Error
 
 class Conexion:
-    DATABASE = 'personas_db'
-    USERNAME = 'root'
-    PASSWORD = 'admin'
-    DB_PORT = '3306'
-    HOST = 'localhost'
-    POOL_SIZE = 5
-    POOL_NAME = 'zona_fit_pool'
+    DATABASE = ''
+    USERNAME = ''
+    PASSWORD = ''
+    DB_PORT = ''
+    HOST = ''
+    POOL_SIZE =
+    POOL_NAME = ''
     pool = None
 
     @classmethod
