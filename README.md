@@ -26,3 +26,31 @@
 | Frontend   | HTML5, Bootstrap 5       |
 | Database   | MySQL                    |
 | DB Access  | Raw SQL via DAO pattern  |
+
+---
+## ⚙️ Getting Started
+1. Clone the Repository:
+git clone https://github.com/Belensanchez1989
+
+2. Create a Virtual Environment:
+ python -m venv venv 
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. Install Dependencies:
+pip install flask flask-wtf mysql-connector-python
+
+4. Configure Database:
+ DATABASE = 'your_db'
+USERNAME = 'your_username'
+PASSWORD = 'your_password'
+
+5. Run the App:
+ python app.py
+
+Then open your browser at:
+http://localhost:5000
+---
+##  👨‍💻 Author
+Built with ❤️ by Belén Sanchez
+
+
